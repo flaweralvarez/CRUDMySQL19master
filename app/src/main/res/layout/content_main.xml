@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#303F50"
+    android:background="#E91E63"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main">
@@ -16,9 +16,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:fontFamily="serif-monospace"
-        android:text="CRUD ~ MYSQL\nJAVA-ANDROID"
+        android:text="Flor de Maria Alvarez"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="#181717"
         android:textSize="26dp"
         android:textStyle="bold" />
 
@@ -93,9 +93,9 @@
                 android:layout_marginRight="15dp"
                 android:layout_marginTop="30dp"
                 android:text="Guardar"
-                android:textColor="#0A0A0A"
+                android:textColor="#0C0C0C"
                 android:background="@drawable/estiloboton"
-                android:shadowColor="#2314A8"
+                android:shadowColor="#2C2CBE"
                 android:shadowDx="-3"
                 android:shadowDy="0"
                 android:shadowRadius="8"
