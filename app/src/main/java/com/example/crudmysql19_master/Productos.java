@@ -1,7 +1,6 @@
 package com.example.crudmysql19_master;
 
 public class Productos {
-
     int codigo;
     String descripcion;
     double precio;
@@ -48,6 +47,4 @@ public class Productos {
     public void setImagen(String imagen) {
         this.imagen = imagen;
     }
-
-
 }

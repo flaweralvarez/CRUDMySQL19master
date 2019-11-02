@@ -15,6 +15,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.example.crudmysqlandroid.R;
 
 import org.json.JSONArray;
@@ -23,6 +27,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class Consulta_RecyclerView extends AppCompatActivity {
 
@@ -147,7 +152,7 @@ public class Consulta_RecyclerView extends AppCompatActivity {
         });
 
         //Volley.newRequestQueue(this).add(stringRequest);
-        // MySingleton.getInstance(this).addToRequestQueue(stringRequest);
+       // MySingleton.getInstance(this).addToRequestQueue(stringRequest);
         MySingleton.getInstance(Consulta_RecyclerView.this).addToRequestQueue(stringRequest);
     }
 
@@ -187,7 +192,7 @@ public class Consulta_RecyclerView extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if(id == R.id.action_salir){
+       if(id == R.id.action_salir){
             DialogConfirmacion();
             return true;
         }

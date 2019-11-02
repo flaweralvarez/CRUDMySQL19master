@@ -5,8 +5,16 @@ import android.graphics.Bitmap;
 
 import androidx.collection.LruCache;
 
-public class MySingleton {
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.Volley;
 
+//import android.util.LruCache;
+//import android.support.v4.util.LruCache;
+//import android.support.v4.util.LruCache;
+
+public class MySingleton {
     private static MySingleton mInstance;
     private RequestQueue mRequestQueue;
     private ImageLoader mImageLoader;
@@ -56,5 +64,5 @@ public class MySingleton {
         return mImageLoader;
     }
 
-
 }
+
